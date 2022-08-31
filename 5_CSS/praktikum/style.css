@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+
+.container {
+  display: flex;
+  font-family: 'Slabo 27px', serif;
+}
+
+.kotak1 {
+  border-style: solid;
+  width: 100px;
+  height: 100px;
+  padding-top: 35px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: red;
+  color: white;
+}
+
+.kotak2 {
+  border-style: solid;
+  width: 100px;
+  height: 100px;
+  padding-top: 35px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: blue;
+  color: white;
+}
+
+.kotak3 {
+  border-style: solid;
+  border-radius: 10px;
+  width: 350px;
+  height: 350px;
+  padding-top: 35px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: green;
+  color: white;
+  font-family: 'Slabo 27px', serif;
+}

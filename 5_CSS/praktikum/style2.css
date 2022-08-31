@@ -1,0 +1,83 @@
+body {
+  background-image: url(images/sample-pattern.png);
+  margin: 0px;
+  overflow-y: hidden;
+}
+
+.navbar {
+  display: flex;
+  justify-content: end;
+  padding: 10px;
+}
+
+nav {
+  margin: auto;
+  display: flex;
+  background-color: white;
+  padding: 0;
+}
+
+.nav-item {
+  position: relative;
+}
+
+.nav-link {
+  display: block;
+  padding: 20px 15px;
+  margin: 0;
+  text-decoration: none;
+  text-align: right;
+}
+
+.lorem1 {
+  border-style: hidden;
+  padding-left: 10px;
+  width: 800px;
+  height: 100px;
+  margin: auto;
+  background-color: white;
+}
+
+.lorem2 {
+  border-style: hidden;
+  padding-left: 10px;
+  width: 800px;
+  height: 100px;
+  margin: auto;
+  background-color: white;
+}
+
+.lorem3 {
+  border-style: hidden;
+  padding-left: 10px;
+  width: 800px;
+  height: 100px;
+  margin: auto;
+  background-color: white;
+}
+
+.box {
+    border-style: hidden;
+    width: 100%;
+    height: 25px;
+    margin: auto;
+    background-color: white;
+}
+
+.lorem4 {
+    margin-top: 0px;
+  border-style: hidden;
+  padding-left: 10px;
+  width: 800px;
+  height: 100px;
+  margin: auto;
+  background-color: white;
+}
+
+.footer {
+    margin-top: 20px;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+}
