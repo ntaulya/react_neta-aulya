@@ -1,0 +1,16 @@
+.completed {
+  margin-left: 5px;
+  padding: 5px;
+  border: 1px solid;
+  width: fit-content;
+  border-radius: 8px;
+}
+
+.not-completed {
+  margin-left: 5px;
+  padding: 5px;
+  text-decoration: line-through;
+  border: 1px solid;
+  width: fit-content;
+  border-radius: 8px;
+}
