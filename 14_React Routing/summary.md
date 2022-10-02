@@ -1,0 +1,4 @@
+# Pada tugas ke empat belas ini mengenai routing
+# Single Page Application yaitu sebuah konsep aplikasi web yang memiliki satu halaman saja
+# Dalam web jika ingin berganti halaman satu dan halaman yang lainnya diperlukan suatu proses routing. Routing sendiri adalah proses pemetaan antara sebuah URL ke dalam sebuah halaman yang terdapat konten / UI (User Interface) sesuai dengan URL yang dituju.
+# Library yang sangat familiar adalah react-router dan reach/router. Sebenernya yang dipakai untuk routing di React biasanya react-router-dom anak dari react-router, yang mana selain react-router-dom juga terdapat react-router-native yang bisa digunakan untuk development aplikasi Android dan iOS.
