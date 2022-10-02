@@ -1,0 +1,30 @@
+@mixin gradient-text($angle: 45deg, $color: #f82, $amount: 35%) {
+    color: $color;
+    background: -webkit-linear-gradient($angle, $color, adjust-hue($color, $amount));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    display: inline-block;
+    text-align: center;
+  }
+
+.title {
+    @include gradient-text;
+    text-align: center;
+}
+
+.completed {
+  margin-left: 5px;
+  padding: 5px;
+  width: fit-content;
+  border-radius: 8px;
+}
+
+.not-completed {
+  margin-left: 5px;
+  padding: 5px;
+  text-decoration: line-through;
+  width: fit-content;
+  border-radius: 8px;
+}
+
+
