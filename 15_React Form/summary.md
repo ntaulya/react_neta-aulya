@@ -1,0 +1,5 @@
+# Pada tugas ke lima belas ini mengenai react form
+# React Form sedikit berbeda dengan HTML Form, React memperkenalkan konsep controlled component dan uncontrolled component.
+# Pada HTML, data dari sebuah form dihandle oleh DOM. Tetapi pada React, data atau value dari setiap element di dalam form di simpan dalam component state. Sebuah element HTML yang valuenya dikontrol oleh React disebut controlled component, selain itu disebut uncontrolled component.
+# <input type="file" /> adalah contoh dari uncontrolled component, karena value tersebut tidak dikontrol oleh React maka untuk mengakses file kita harus menggunakan File API dan Refs.
+# Refs dapat digunakan untuk mengakses react element di dalam method render. Untuk membuat Refs kita menggunakan React.createRef() yang dipasang ke sebuah elemen lewat atribut ref.
