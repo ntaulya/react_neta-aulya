@@ -18,9 +18,7 @@ const Todo = ({ item, index }) => {
     <div className="row">
       <div className="col-8 pt-2 d-flex justify-content-start align-items-center" onClick={() => check(index)}>
         <i className={`bi bi${todoCompleted}`} />
-        <span style={{ textDecoration: item.completed ? "line-through" : "" }}>
-          {item.title}
-        </span>
+        <span style={{ textDecoration: item.completed ? "line-through" : "" }}>{item.title}</span>
       </div>
       <div className="col-4 d-flex justify-content-end align-items-center">
         <button className="btn btn-danger rounded-pill mb-2" onClick={() => removeTodo(index)}>
