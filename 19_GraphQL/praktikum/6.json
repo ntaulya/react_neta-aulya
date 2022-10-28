@@ -1,0 +1,29 @@
+No 8
+
+mutation ($id_anggota: Int = 6, $id_anggota1: Int = 6) {
+    update_kampus_merdeka_keterangan(where: {status: {_eq: true}})
+}
+
+No 7
+mutation ($id_anggota: Int = 6, $id_anggota1: Int = 6) {
+    insert_kampus_merdeka_keterangan_one{
+        id_anggota
+        nilai
+        pelajaran
+        status
+        id
+    }
+}
+
+No 7B
+mutation ($id_anggota: Int = 6, $id_anggota1: Int = 6) {
+    insert_kampus_merdeka_keterangan(objects: {antarId: {data:}})
+    }
+}
+
+No 6
+query MyQuery {
+    kampus_merdeka_keterangan(where: status: {_eq: true}}) {
+        id
+    }
+}
